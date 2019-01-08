@@ -1,0 +1,80 @@
+@charset "utf-8";
+body{
+    background-color: rgb(179, 179, 179);
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+}
+p{
+    padding: 10px;
+    font-size: 24px;
+}
+#naranja{
+position: absolute;
+background: rgb(240, 186, 86);
+text-align: center;
+top: 8%;
+left: 10%;
+width: 80%;
+height: 10%;
+border: hsl(40, 40%, 35%) 2px solid;
+
+}
+#amarillo{
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  width: 35%;
+  height: 25%;
+  border: hsl(60, 64%, 55%) 4px solid;
+  background-color: hsl(60, 100%, 75%);
+  text-align: left;
+}
+#morado{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 15%, 70%) 4px solid;
+    background-color: hsl(300, 100%, 93%);
+    text-align: left;
+}
+#verde{
+background: rgb(93, 206, 93);
+position: absolute;
+text-align: center;
+top: 40%;
+left: 32%;
+width: 35%;
+height: 30%;
+border: hsl(120, 36%, 25%) 4px solid;
+
+
+}
+#azul{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 25%, 70%) 4px solid;
+    background-color: hsl(180, 100%, 90%);
+    text-align: right;
+}
+#rosa{
+    position: absolute;
+    top: 60%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 25%, 25%) 4px solid;
+    background-color: hsl(308, 36%, 67%);
+    text-align: right;
+}
+p:hover {
+    z-index: 3;
+  }
